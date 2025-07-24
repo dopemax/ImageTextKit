@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageTextKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ImageTextKit'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dopemax' => '1003990034@qq.com' }
   s.source       = {
-    :http => 'https://github.com/dopemax/ImageTextKit/releases/download/v0.0.1/ImageTextKit.xcframework.zip',
+    :http => 'https://github.com/dopemax/ImageTextKit/releases/download/v0.0.2/ImageTextKit.xcframework.zip',
     :type => 'zip'
   }
 
