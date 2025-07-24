@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     :type => 'zip'
   }
 
-  s.vendored_frameworks = 'build/ImageTextKit.xcframework'
+  s.vendored_frameworks = 'ImageTextKit.xcframework'
 
   s.swift_versions = ['5.0']
 
