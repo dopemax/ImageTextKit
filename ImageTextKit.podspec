@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageTextKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'ImageTextKit'
 
 # This description is used to generate tags and improve search results.
@@ -27,23 +27,22 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dopemax' => '1003990034@qq.com' }
 #  s.source       = {
-#    :http => 'https://github.com/dopemax/ImageTextKit/releases/download/v0.0.3/ImageTextKit.xcframework.zip',
+#    :http => 'https://github.com/dopemax/ImageTextKit/releases/download/v0.0.4/ImageTextKit.xcframework.zip',
 #    :type => 'zip'
 #  }
   s.source           = { :git => 'https://github.com/dopemax/ImageTextKit.git', :tag => s.version.to_s }
   s.resource_bundles = {"ImageTextKit" => ["ImageTextKit/PrivacyInfo.xcprivacy"]}
-
-
-  s.vendored_frameworks = 'ImageTextKit.xcframework'
-
-  s.swift_versions = ['5.0']
-
+  
+  s.swift_versions = ['5.5', '5.6', '5.7', '5.8', '5.9', '5.10']
+  
   s.ios.deployment_target = "15.0"
 
   # s.resource_bundles = {
   #   'ImageTextKit' => ['ImageTextKit/Assets/*.png']
   # }
 
+  s.vendored_frameworks = 'ImageTextKit.xcframework'
+  
   s.dependency 'Alamofire', '~> 5.10'
   
   s.user_target_xcconfig = {

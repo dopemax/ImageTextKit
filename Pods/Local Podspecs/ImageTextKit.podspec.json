@@ -1,6 +1,6 @@
 {
   "name": "ImageTextKit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "ImageTextKit",
   "description": "ImageTextKit.",
   "homepage": "https://github.com/dopemax/ImageTextKit",
@@ -13,23 +13,28 @@
   },
   "source": {
     "git": "https://github.com/dopemax/ImageTextKit.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
-  "vendored_frameworks": "ImageTextKit.xcframework",
+  "resource_bundles": {
+    "ImageTextKit": [
+      "ImageTextKit/PrivacyInfo.xcprivacy"
+    ]
+  },
   "swift_versions": [
-    "5.0"
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9"
   ],
   "platforms": {
     "ios": "15.0"
   },
+  "vendored_frameworks": "ImageTextKit.xcframework",
   "dependencies": {
     "Alamofire": [
       "~> 5.10"
     ]
   },
-  "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "-framework \"Alamofire\"",
-    "FRAMEWORK_SEARCH_PATHS": "$(inherited) \"${PODS_XCFRAMEWORKS_BUILD_DIR}/Alamofire\""
-  },
-  "swift_version": "5.0"
+  "swift_version": "5.9"
 }

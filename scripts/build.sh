@@ -4,19 +4,18 @@
 SCHEME="${1:-$(basename "$PWD")}"
 CONFIGURATION="Release"
 
-# 自动判断 workspace 或 project
-WORKSPACE_FILE=$(ls *.xcworkspace 2>/dev/null | head -n 1)
-PROJECT_FILE=$(ls *.xcodeproj 2>/dev/null | head -n 1)
+WORKSPACE_FILE=$(find . -maxdepth 1 -name "*.xcworkspace" | head -n 1)
+XCODEPROJ_FILE=$(find . -maxdepth 1 -name "*.xcodeproj" | head -n 1)
 
 if [[ -n "$WORKSPACE_FILE" ]]; then
-  BUILD_CONTEXT=(-workspace "$WORKSPACE_FILE")
-  echo "📦 Using workspace: $WORKSPACE_FILE"
-elif [[ -n "$PROJECT_FILE" ]]; then
-  BUILD_CONTEXT=(-project "$PROJECT_FILE")
-  echo "📦 Using project: $PROJECT_FILE"
+    BUILD_CONTEXT=(-workspace "$WORKSPACE_FILE")
+    echo "📦 Using workspace: ${BUILD_CONTEXT[@]}"
+elif [[ -n "$XCODEPROJ_FILE" ]]; then
+    BUILD_CONTEXT=(-project "$XCODEPROJ_FILE")
+    echo "📦 Using project: ${BUILD_CONTEXT[@]}"
 else
-  echo "❌ 未找到 .xcworkspace 或 .xcodeproj，无法构建"
-  exit 1
+    echo "❌ 未找到 .xcworkspace 或 .xcodeproj，无法构建"
+    exit 1
 fi
 
 echo "🎯 Using scheme: ${SCHEME}"
