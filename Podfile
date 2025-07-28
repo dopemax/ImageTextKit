@@ -5,8 +5,12 @@ target 'Demo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Demo
-
+#  pod 'ImageTextKit'
+#  pod 'ImageTextKit', :git => 'https://github.com/dopemax/ImageTextKit.git'
+#  pod 'ImageTextKit', :git => 'https://github.com/dopemax/ImageTextKit.git', :tag => '0.0.3'
+#  pod 'ImageTextKit', :podspec => 'ImageTextKit.podspec'
+  pod 'ImageTextKit', :path => 'ImageTextKit.podspec'
+  
   target 'DemoTests' do
     inherit! :search_paths
     # Pods for testing

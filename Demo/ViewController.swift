@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import ImageTextKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        ImageTextService.shared.start()
     }
 
 

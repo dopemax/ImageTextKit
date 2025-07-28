@@ -1,16 +1,24 @@
 PODS:
   - Alamofire (5.10.2)
+  - ImageTextKit (0.0.3):
+    - Alamofire (~> 5.10)
 
 DEPENDENCIES:
   - Alamofire
+  - ImageTextKit (from `ImageTextKit.podspec`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
 
+EXTERNAL SOURCES:
+  ImageTextKit:
+    :path: ImageTextKit.podspec
+
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  ImageTextKit: a3cd77dad08ced4d40a14990a9caa89fe97ff512
 
-PODFILE CHECKSUM: 03ce0176eb63e0e6277eb00c3ed34e6bedfcff0e
+PODFILE CHECKSUM: 4c1c4539559733e0682b58cabc14484a9a77e5f1
 
 COCOAPODS: 1.16.2

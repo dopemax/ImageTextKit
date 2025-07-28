@@ -1,0 +1,984 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ImageTextKit",
+    "printedName": "ImageTextKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageTextService",
+        "printedName": "ImageTextService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageTextService",
+                "printedName": "ImageTextKit.ImageTextService",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(cpy)shared",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC6sharedACvpZ",
+            "moduleName": "ImageTextKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageTextService",
+                    "printedName": "ImageTextKit.ImageTextService",
+                    "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(cm)shared",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC6sharedACvgZ",
+                "moduleName": "ImageTextKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadHost",
+            "printedName": "uploadHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(py)uploadHost",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC10uploadHostSSvp",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)uploadHost",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC10uploadHostSSvg",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)setUploadHost:",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC10uploadHostSSvs",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ImageTextKit0aB7ServiceC10uploadHostSSvM",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC10uploadHostSSvM",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadParam",
+            "printedName": "uploadParam",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(py)uploadParam",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC11uploadParamSSvp",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)uploadParam",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC11uploadParamSSvg",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)setUploadParam:",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC11uploadParamSSvs",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ImageTextKit0aB7ServiceC11uploadParamSSvM",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC11uploadParamSSvM",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadFileNamePrefix",
+            "printedName": "uploadFileNamePrefix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(py)uploadFileNamePrefix",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC20uploadFileNamePrefixSSvp",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)uploadFileNamePrefix",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC20uploadFileNamePrefixSSvg",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)setUploadFileNamePrefix:",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC20uploadFileNamePrefixSSvs",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ImageTextKit0aB7ServiceC20uploadFileNamePrefixSSvM",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC20uploadFileNamePrefixSSvM",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textFilterBlock",
+            "printedName": "textFilterBlock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(py)textFilterBlock",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC15textFilterBlockySbSScvp",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)textFilterBlock",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC15textFilterBlockySbSScvg",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)setTextFilterBlock:",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC15textFilterBlockySbSScvs",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ImageTextKit0aB7ServiceC15textFilterBlockySbSScvM",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC15textFilterBlockySbSScvM",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ocrQueueMaxConcurrentOperationCount",
+            "printedName": "ocrQueueMaxConcurrentOperationCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(py)ocrQueueMaxConcurrentOperationCount",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC35ocrQueueMaxConcurrentOperationCountSivp",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)ocrQueueMaxConcurrentOperationCount",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC35ocrQueueMaxConcurrentOperationCountSivg",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)setOcrQueueMaxConcurrentOperationCount:",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC35ocrQueueMaxConcurrentOperationCountSivs",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ImageTextKit0aB7ServiceC35ocrQueueMaxConcurrentOperationCountSivM",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC35ocrQueueMaxConcurrentOperationCountSivM",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadQueueMaxConcurrentOperationCount",
+            "printedName": "uploadQueueMaxConcurrentOperationCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(py)uploadQueueMaxConcurrentOperationCount",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC38uploadQueueMaxConcurrentOperationCountSivp",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)uploadQueueMaxConcurrentOperationCount",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC38uploadQueueMaxConcurrentOperationCountSivg",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)setUploadQueueMaxConcurrentOperationCount:",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC38uploadQueueMaxConcurrentOperationCountSivs",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ImageTextKit0aB7ServiceC38uploadQueueMaxConcurrentOperationCountSivM",
+                "mangledName": "$s12ImageTextKit0aB7ServiceC38uploadQueueMaxConcurrentOperationCountSivM",
+                "moduleName": "ImageTextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)start",
+            "mangledName": "$s12ImageTextKit0aB7ServiceC5startyyF",
+            "moduleName": "ImageTextKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageTextService",
+                "printedName": "ImageTextKit.ImageTextService",
+                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)init",
+            "mangledName": "$s12ImageTextKit0aB7ServiceCACycfc",
+            "moduleName": "ImageTextKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService",
+        "mangledName": "$s12ImageTextKit0aB7ServiceC",
+        "moduleName": "ImageTextKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "ImageTextKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextService.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextService.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextService.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 5,
+      "value": "\"img\""
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 6300,
+      "length": 26,
+      "value": "\"com.photoTextCache.queue\""
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "Dictionary",
+      "offset": 6404,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "FloatLiteral",
+      "offset": 6691,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "FloatLiteral",
+      "offset": 6767,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 6916,
+      "length": 31,
+      "value": "\"photo.text.cache.save.trigger\""
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10278,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 10484,
+      "length": 17,
+      "value": "\"network.monitor\""
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13077,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13859,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13902,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14183,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/keji001\/Documents\/luezhen-projects\/AB\/AB\/ImageTextKit\/ImageTextKit\/Sources\/ImageTextRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14460,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

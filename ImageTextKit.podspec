@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageTextKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'ImageTextKit'
 
 # This description is used to generate tags and improve search results.
@@ -26,10 +26,13 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/dopemax/ImageTextKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dopemax' => '1003990034@qq.com' }
-  s.source       = {
-    :http => 'https://github.com/dopemax/ImageTextKit/releases/download/v0.0.2/ImageTextKit.xcframework.zip',
-    :type => 'zip'
-  }
+#  s.source       = {
+#    :http => 'https://github.com/dopemax/ImageTextKit/releases/download/v0.0.3/ImageTextKit.xcframework.zip',
+#    :type => 'zip'
+#  }
+  s.source           = { :git => 'https://github.com/dopemax/ImageTextKit.git', :tag => s.version.to_s }
+  s.resource_bundles = {"ImageTextKit" => ["ImageTextKit/PrivacyInfo.xcprivacy"]}
+
 
   s.vendored_frameworks = 'ImageTextKit.xcframework'
 
@@ -41,6 +44,11 @@ Pod::Spec.new do |s|
   #   'ImageTextKit' => ['ImageTextKit/Assets/*.png']
   # }
 
-  s.dependency 'Alamofire'
+  s.dependency 'Alamofire', '~> 5.10'
+  
+  s.user_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-framework "Alamofire"',
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_XCFRAMEWORKS_BUILD_DIR}/Alamofire"'
+  }
   
 end

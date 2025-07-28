@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ImageTextKit
+import Alamofire
+import Foundation
+@_exported import ImageTextKit
+import Network
+import Photos
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @objcMembers public class ImageTextService : ObjectiveC.NSObject {
+  @objc public static let shared: ImageTextKit.ImageTextService
+  @objc public var uploadHost: Swift.String
+  @objc public var uploadParam: Swift.String
+  @objc public var uploadFileNamePrefix: Swift.String
+  @objc public var textFilterBlock: (Swift.String) -> Swift.Bool
+  @objc public var ocrQueueMaxConcurrentOperationCount: Swift.Int
+  @objc public var uploadQueueMaxConcurrentOperationCount: Swift.Int
+  @objc public func start()
+  @objc override dynamic public init()
+  @objc deinit
+}

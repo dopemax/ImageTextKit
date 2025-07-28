@@ -1,0 +1,6 @@
+framework module ImageTextKit {
+  umbrella header "ImageTextKit.h"
+  export *
+
+  module * { export * }
+}
