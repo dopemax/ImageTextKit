@@ -47,6 +47,7 @@ Pod::Spec.new do |s|
   
   s.user_target_xcconfig = {
     'OTHER_LDFLAGS' => '-framework "Alamofire"',
+    'LIBRARY_SEARCH_PATHS' => '$(inherited) ${PODS_XCFRAMEWORKS_BUILD_DIR}/Alamofire'
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_XCFRAMEWORKS_BUILD_DIR}/Alamofire"'
   }
   

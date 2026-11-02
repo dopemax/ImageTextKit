@@ -12,7 +12,7 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @objcMembers public class ImageTextService : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class ImageTextService : ObjectiveC.NSObject {
   @objc public static let shared: ImageTextKit.ImageTextService
   @objc public var uploadHost: Swift.String
   @objc public var uploadParam: Swift.String
@@ -21,6 +21,5 @@ import _SwiftConcurrencyShims
   @objc public var ocrQueueMaxConcurrentOperationCount: Swift.Int
   @objc public var uploadQueueMaxConcurrentOperationCount: Swift.Int
   @objc public func start()
-  @objc override dynamic public init()
   @objc deinit
 }

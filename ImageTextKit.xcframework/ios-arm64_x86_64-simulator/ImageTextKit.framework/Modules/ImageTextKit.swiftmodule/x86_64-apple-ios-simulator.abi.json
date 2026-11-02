@@ -686,32 +686,6 @@
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageTextService",
-                "printedName": "ImageTextKit.ImageTextService",
-                "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ImageTextKit@objc(cs)ImageTextService(im)init",
-            "mangledName": "$s12ImageTextKit0aB7ServiceCACycfc",
-            "moduleName": "ImageTextKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -724,6 +698,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
